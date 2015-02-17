@@ -38,7 +38,3 @@ def rim_index(word, rim):
     is a position in w where the corresponding suffix of the rim starts. """
     return len(word) - len(rim) + 1
 
-
-def gap(word, rim1, rim2):
-    """ Return the gap between two rims of the given word. We assume
-    len(rim1) > len(rim2)
